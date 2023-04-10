@@ -43,13 +43,14 @@ function generatePassword(){
   let wantNumbers = confirm("Would you like numbers in your password? Press OK for Yes or Cancel for No");
   let wantCharacters = confirm("Would you like special characters in your password? Press OK for Yes or Cancel for No");
 
-  // Begin password generation
+  // Password generation
+  if(wantLower == 0 && wantUpper == 0 && wantNumbers == 0 && wantCharacters == 0){
+    alert("You cannot have a password with no characters.");
+    return;
+  }
+
   let areYouReady = confirm("Are you ready for your new secure password? To proceed, press OK. To quit, press cancel.");
   let newPassword = "";
-
-  //if(wantLower == 0 && wantUpper == 0 && wantNumbers == 0 && wantCharacters == 0){
-    
-  //}
 
   if (areYouReady){
     if(wantLower == 1 && wantUpper == 0 && wantNumbers == 0 && wantCharacters == 0){
