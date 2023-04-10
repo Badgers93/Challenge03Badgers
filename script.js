@@ -33,7 +33,7 @@ function generatePassword(){
     alert("Great choice");
   }
   else {
-    alert("Not a valid choice. Abort mission");
+    alert("See you space cowboy");
     return;
   }
   
