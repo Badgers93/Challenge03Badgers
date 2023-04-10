@@ -12,7 +12,7 @@ Included parameters:
     - Do they want special characters?
     - How long do they want the password (confined between 8 and 128)
 
-# Usage
-    Link to website: https://badgers93.github.io/Challenge02Badgers/
+## Usage
+Link to website: https://badgers93.github.io/Challenge03Badgers/
 
-![Screenshot of deployed website](./assets/screenshotChallenge02.png)
+![Screenshot of deployed website](./Assets/deployedScreenshot.png)

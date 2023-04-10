@@ -47,6 +47,10 @@ function generatePassword(){
   let areYouReady = confirm("Are you ready for your new secure password? To proceed, press OK. To quit, press cancel.");
   let newPassword = "";
 
+  //if(wantLower == 0 && wantUpper == 0 && wantNumbers == 0 && wantCharacters == 0){
+    
+  //}
+
   if (areYouReady){
     if(wantLower == 1 && wantUpper == 0 && wantNumbers == 0 && wantCharacters == 0){
       for (let i = 0; i < passwordLength; i++){
@@ -153,10 +157,10 @@ function generatePassword(){
       }
       return newPassword;
     }
-    else{
-      alert("See you space cowboy")
-      return;
-    }
+  }
+  else{
+    alert("See you space cowboy")
+    return;
   }
 }
 
